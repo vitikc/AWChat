@@ -1,0 +1,25 @@
+main: me.vitikc.awchat.AWMain
+name: AWChat
+author: Vitikc
+authors: [Vitikc, Naitora]
+version: 1.0beta
+commands:
+  block:
+    description: Blocks <player>'s chat
+    usage: /<command> <player>
+  blockall:
+    description: Blocks chat for all online players
+    usage: /<command>
+    permission: awchat.blockall
+  blockclear:
+    description: Ublocks all player's chat
+    usage: /<command>
+  blocklist:
+    description: Shows list of blocked players
+    usage: /<command>
+  unblock:
+    description: Unblocks chat for <player>
+    usage: /<command> <player>
+permisions:
+  awchat.blockall:
+    default: false
